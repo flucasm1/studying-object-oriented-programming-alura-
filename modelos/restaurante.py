@@ -27,4 +27,4 @@ r_fantastico = Restaurante('Fantástico', 'Mexicana')
 r_fantastico.change_ativo()
 r_canada = Restaurante('Canadá Food', 'Canadense')
 
-Restaurante.listar_r()
+#Restaurante.listar_r()
