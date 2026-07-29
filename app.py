@@ -1,15 +1,10 @@
 from modelos.restaurante import Restaurante
-
+from modelos.cardapio.bebida import Bebida
 restaurante_sabor = Restaurante('Saboroso', 'Variado')
-restaurante_y = Restaurante('Y', 'Comida')
-restaurante_x = Restaurante('X', 'Food')
-restaurante_x.receber_avaliacao('Gui', 5)
-restaurante_x.receber_avaliacao('Lais', 3)
-restaurante_x.receber_avaliacao('Marcos', 5)
-restaurante_y.change_ativo()
+suco_melancia = Bebida('Suco de melancia', 5.00, 'grande', 'Refrescante')
 
 def main():
-    Restaurante.listar_r()
+    print(suco_melancia)
 
 if __name__ == '__main__':
     main()
